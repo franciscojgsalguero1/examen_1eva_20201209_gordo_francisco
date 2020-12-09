@@ -98,7 +98,7 @@
                             
                             // current category of the product must be selected
                             if ($product->category_id==$category_id) {
-                                echo "<option value='category_id' selected>";
+                                echo "<option value='$category_id' selected>";
                             } else {
                                 echo "<option value='$category_id'>";
                             }
